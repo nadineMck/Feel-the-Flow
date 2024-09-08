@@ -1,13 +1,14 @@
 # Feel-the-Flow
 
 This project generates music dynamically based on motion data collected from sensors such as accelerometers and gyroscopes. The generated music reflects the movement patterns and emotional tones captured in real-time or from pre-recorded motion data.
+**Features**
 
-Features
 Motion-to-Music Mapping: Converts motion data into musical elements such as melody and chords, adjusting pitch, rhythm, and intensity based on sensor input.
 Custom Chord Progressions: Includes multiple scales and chord progressions that adapt to the intensity of the motion.
 Real-Time Audio Output: Generates WAV audio files based on motion data.
 Visualization: Plots accelerometer and gyroscope data along with the spectrogram and waveform of the generated music.
-Requirements
+**Requirements**
+
 Python 3.x
 Required Python packages:
 numpy
@@ -16,12 +17,13 @@ scipy
 sounddevice 
 csv
 
-Input Format
+**Input Format**
 The project reads motion data from a CSV file with the following columns:
 
 Time, Accel_X, Accel_Y, Accel_Z, Gyro_X, Gyro_Y, Gyro_Z
 
-How to Use
+**How to Use:**
+
 Prepare Motion Data:
 
 Record real-time motion data from sensors or use pre-recorded data stored in a CSV file, using physics tools sensors suite.
